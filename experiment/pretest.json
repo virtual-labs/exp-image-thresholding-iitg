@@ -2,37 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Thresholding converts image to:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "RGB",
+        "b": "Binary",
+        "c": "Frequency map",
+        "d": "Edge map"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Otsu method chooses threshold based on:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Mean filter",
+        "b": "Histogram variance",
+        "c": "Structuring element",
+        "d": "Template"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Adaptive thresholding is useful for:",
+      "answers": {
+        "a": "Uniform lighting",
+        "b": "Non-uniform lighting",
+        "c": "Removing blur",
+        "d": "Edge thickening"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Global threshold uses:",
+      "answers": {
+        "a": "Local window",
+        "b": "Whole image intensity",
+        "c": "PSF",
+        "d": "Gradients"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Binary threshold assigns pixels to:",
+      "answers": {
+        "a": "0 or 255",
+        "b": "0 only",
+        "c": "255 only",
+        "d": "Random values"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
