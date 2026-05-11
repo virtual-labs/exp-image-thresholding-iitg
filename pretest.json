@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Thresholding converts image to:",
+      "answers": {
+        "a": "RGB",
+        "b": "Binary",
+        "c": "Frequency map",
+        "d": "Edge map"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Otsu method chooses threshold based on:",
+      "answers": {
+        "a": "Mean filter",
+        "b": "Histogram variance",
+        "c": "Structuring element",
+        "d": "Template"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Adaptive thresholding is useful for:",
+      "answers": {
+        "a": "Uniform lighting",
+        "b": "Non-uniform lighting",
+        "c": "Removing blur",
+        "d": "Edge thickening"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Global threshold uses:",
+      "answers": {
+        "a": "Local window",
+        "b": "Whole image intensity",
+        "c": "PSF",
+        "d": "Gradients"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Binary threshold assigns pixels to:",
+      "answers": {
+        "a": "0 or 255",
+        "b": "0 only",
+        "c": "255 only",
+        "d": "Random values"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

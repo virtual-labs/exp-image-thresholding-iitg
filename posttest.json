@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "If lighting varies across the image, the best method is:",
+      "answers": {
+        "a": "Fixed",
+        "b": "Adaptive",
+        "c": "Negative transform",
+        "d": "Laplacian"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Otsu assumes histogram is:",
+      "answers": {
+        "a": "Single peak",
+        "b": "Bimodal",
+        "c": "Flat",
+        "d": "Random"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Adaptive Gaussian differs from mean by:",
+      "answers": {
+        "a": "Weighted neighborhood",
+        "b": "Uses max",
+        "c": "Uses median",
+        "d": "Fourier weights"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Thresholding is mainly a:",
+      "answers": {
+        "a": "Restoration step",
+        "b": "Segmentation step",
+        "c": "Enhancement only",
+        "d": "Compression step"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Increasing fixed T causes foreground to:",
+      "answers": {
+        "a": "Grow",
+        "b": "Shrink",
+        "c": "Smoother",
+        "d": "Noisy"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    }
+  ]
+}

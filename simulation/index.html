@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Experiment 8: Image Thresholding</title>
+<link rel="stylesheet" href="css/main.css">
+<script async src="https://docs.opencv.org/4.x/opencv.js"></script>
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+<div>
+<h1>Experiment 8: Image Thresholding</h1>
+<p>Binary, Otsu, Adaptive Mean & Adaptive Gaussian</p>
+</div>
+<div class="status-pill">
+<span class="dot" id="statusDot"></span>
+<span id="statusText">Loading OpenCV...</span>
+</div>
+<button onclick="location.reload()">Reset</button>
+</header>
+
+<main class="layout">
+
+<aside class="sidebar">
+
+<div class="card">
+<h3>Input Image</h3>
+<input type="file" id="imageInput">
+</div>
+
+<div class="card">
+<h3>Global Threshold (T)</h3>
+<input type="range" id="globalT" min="0" max="255" value="127">
+<span id="tVal">127</span>
+
+<h3>Adaptive Block Size (odd)</h3>
+<input type="range" id="blockSize" min="3" max="51" step="2" value="11">
+<span id="bVal">11</span>
+
+<h3>Adaptive C Value</h3>
+<input type="range" id="cValue" min="-20" max="20" value="2">
+<span id="cVal">2</span>
+
+</div>
+
+<div class="card">
+<h3>Otsu Threshold</h3>
+<p>Auto T: <span id="otsuVal">-</span></p>
+</div>
+
+</aside>
+
+<section class="workspace">
+<div class="canvas-row">
+
+<div class="canvas-card">
+<h4>Original (Gray)</h4>
+<canvas id="originalCanvas"></canvas>
+</div>
+
+<div class="canvas-card">
+<h4>Binary (Manual)</h4>
+<canvas id="binaryCanvas"></canvas>
+</div>
+
+<div class="canvas-card">
+<h4>Otsu</h4>
+<canvas id="otsuCanvas"></canvas>
+</div>
+
+<div class="canvas-card">
+<h4>Adaptive Mean</h4>
+<canvas id="meanCanvas"></canvas>
+</div>
+
+<div class="canvas-card">
+<h4>Adaptive Gaussian</h4>
+<canvas id="gaussCanvas"></canvas>
+</div>
+
+</div>
+</section>
+
+</main>
+</div>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>
